@@ -4,7 +4,7 @@
     {
       "type": "package",
       "package": {
-        "name": "SuperStani/tgbot-sections",
+        "name": "superstani/tgbot-sections",
         "version": "1.2.3",
         "type": "drupal-theme",
         "source": {
@@ -16,7 +16,7 @@
     }
   ],
   "require": {
-    "SuperStani/tgbot-sections": "^1",
+    "superstani/tgbot-sections": "^1",
     "composer/installers": "^1"
   }
 }
