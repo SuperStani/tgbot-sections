@@ -1,0 +1,22 @@
+{
+  "name": "SuperStani/tgbot-sections",
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "SuperStani/tgbot-sections",
+        "version": "1.2.3",
+        "type": "drupal-theme",
+        "source": {
+          "url": "https://github.com/SuperStani/tgbot-sections.git",
+          "type": "git",
+          "reference": "master"
+        }
+      }
+    }
+  ],
+  "require": {
+    "SuperStani/tgbot-sections": "^1",
+    "composer/installers": "^1"
+  }
+}
