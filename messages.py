@@ -39,13 +39,13 @@ async def messages_response(App, message):
                 elif data == "some_data":
                     pass
                   
-        elif message.photo is not none:
+        elif message.photo is not None:
             if section == "":
                 if data == "":
                     pass
                   
 async def command_response(App, message, chat_id):
-    command == message.text
+    command = message.text
     if command == "/start":
         await message.reply("Hello, the bot is online!")
         db.page("home:start", chat_id)
