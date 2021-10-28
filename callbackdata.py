@@ -10,7 +10,7 @@ async def callback_response(App, query):
     data = params[0]
     
     #----------------------------------SECTION HOME-----------------------------------------#
-    elif section == "home":
+    if section == "home":
         if data == "start":
             keyboard = Keyboard([
                 [Button("➕ NEW POST", "post:new")],
